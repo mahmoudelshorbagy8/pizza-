@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pizza</title>
+  <!-- Custom Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+   <!-- Swiper Css CDN------->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <!-- Custom Styles -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!--section header start-->
+ <header>
+    <a href="#" class="logo">
+      <img src="logo.png" alt="logo">
+    </a>
+    <nav class="navbar">
+      <a href="#home" class="active">home</a>
+      <a href="#menu">menu</a>
+      <a href="#special">special</a>
+      <a href="#booking">booking</a>
+    </nav>
+    <div class="icon">
+      <i class="fas fa-cart-shopping"></i>
+      <i class="fas fa-phone"></i>
+      <i class="fas fa-bars" id="btn-mobile"></i>
+    </div>
+ </header> 
+ <!--section header endt-->
+ 
+ <!--section landing start-->
+ <div class="bg-hom">
+    <section id="home" class="landing">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>its not just a pizza, it's an <span>experience</span></h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, </p>
+            <button class="btn">order now </button>
+      </div>
+  </div>
+  <!-- icon & customer-->
+  <div class="hero">
+    
+    <div class="icon">
+      <i class="fas fa-users"></i>
+      <div class="text">
+        <span class="number">2000+</span>
+        <p>customer</p>
+      </div>
+    </div>
+       <div class="icon">
+        <i class="fa-solid fa-pizza-slice"></i>
+         <div class="text">
+           <span class="number">1500+</span>
+           <p>delivery</p>
+         </div>
+       </div>
+  </div>
+  </div>
+ </section>
+ </div>
+ <!--section landing end-->
+  
+<!-- section menu Start ---------->
+  <section class="menu" id="menu">
+    <div class="heading">
+      <h2>our menu</h2>
+      <p>discover our menu</p> 
+    </div>
+    <!-- data filter--->
+  <div class="container">
+      <div class="filter">
+        <div class="button up" data-filter="all">view all</div>
+        <div class="button" data-filter="pizza">pizza</div>
+        <div class="button" data-filter
+        ="pasta dinner">pasta dinner</div>
+        <div class="button" data-filter="grill&seafood">
+          grill&seafood</div>
+        <div class="button" data-filter="ice cream">ice cream</div>
+      </div>
+     <div class="grid">
+       <!-- pizza -->
+       <div class="coulm" data-item="pizza">
+         <img src="pizza-1.jpeg">
+         <div class="content">
+           <h3>pizza Italian</h3>
+           <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+         </div>
+         <div class="size">
+           <span>30cm</span>
+           <span>40cm</span>
+           <span>50cm</span>
+         </div>
+           <button class="btn">order now </button>
+       </div>
+       
+      <div class="coulm" data-item="pizza">
+       <img src="pizza-2.jpeg">
+        <div class="content">
+        <h3>pizza Italian</h3>
+        <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+        </div>
+        <div class="size">
+         <span>30cm</span>
+          <span>40cm</span>
+          <span>50cm</span>
+          </div>
+         <button class="btn">order now </button>
+         </div>
+        <div class="coulm" data-item="pizza">
+         <img src="pizza-3.jpeg">
+         <div class="content">
+          <h3>pizza Italian</h3>
+         <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+         </div>
+         <div class="size">
+         <span>30cm</span>
+          <span>40cm</span>
+          <span>50cm</span>
+         </div>
+         <button class="btn">order now </button>
+        </div>
+       <div class="coulm" data-item="pizza">
+       <img src="pizza-4.jpeg">
+       <div class="content">
+       <h3>pizza Italian</h3>
+        <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+         </div>
+        <div class="size">
+        <span>30cm</span>
+        <span>40cm</span>
+        <span>50cm</span>
+        </div>
+          <button class="btn">order now </button>
+        </div>
+        
+        <!-- pasta dinner -->
+        
+    <div class="coulm"data-item="pasta dinner">
+     <img src="pasta-1.jpeg">
+     <div class="content">
+      <h3>pasta salad</h3>
+       <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+    </div>
+  <div class="size">
+    <span>30cm</span>
+    <span>40cm</span>
+     <span>50cm</span>
+   </div>
+      <button class="btn">order now </button>
+ </div>
+   <div class="coulm" data-item="pasta dinner">
+    <img src="pasta-2.jpeg">
+    <div class="content">
+    <h3>pasta salad</h3>
+    <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+      </div>
+   <div class="size">
+     <span>30cm</span>
+     <span>40cm</span>
+     <span>50cm</span>
+    </div>
+      <button class="btn">order now </button>
+   </div>
+    <div class="coulm" data-item="pasta dinner">
+    <img src="pasta-3.jpeg">
+     <div class="content">
+       <h3>pasta salad</h3>
+     <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+       </div>
+       <div class="size">
+       <span>30cm</span>
+        <span>40cm</span>
+        <span>50cm</span>
+        </div>
+        <button class="btn">order now </button>
+      </div>
+    <div class="coulm" data-item="pasta dinner">
+     <img src="pasta-4.jpeg">
+     <div class="content">
+     <h3>pasta salad</h3>
+    <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+    </div>
+   <div class="size">
+   <span>30cm</span>
+    <span>40cm</span>
+    <span>50cm</span>
+   </div>
+      <button class="btn">order now </button>
+   </div>
+   
+   <!-- grill& seafood-->
+   
+ <div class="coulm" data-item="grill&seafood">
+   <img src="seafood-1.jpeg">
+     <div class="content">
+     <h3>seafood</h3>
+    <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+    </div>
+   <div class="size">
+   <span>30cm</span>
+    <span>40cm</span>
+    <span>50cm</span>
+   </div>
+       <button class="btn">order now </button>
+   </div>
+    
+   <div class="coulm" data-item="grill&seafood">
+   <img src="seafood-2.jpeg">
+   <div class="content">
+     <h3>seafood</h3>
+    <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+    </div>
+    <div class="size">
+      <span>30cm</span>
+      <span>40cm</span>
+       <span>50cm</span>
+      </div>
+      <button class="btn">order now </button>
+   </div>
+     <div class="coulm" data-item="grill&seafood">
+       <img src="seafood-3.jpeg">
+       <div class="content">
+         <h3>seafood</h3>
+         <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+       </div>
+       <div class="size">
+         <span>30cm</span>
+         <span>40cm</span>
+         <span>50cm</span>
+       </div>
+       <button class="btn">order now </button>
+     </div>
+
+     <div class="coulm" data-item="grill&seafood">
+       <img src="seafood-4.png">
+       <div class="content">
+         <h3>seafood</h3>
+         <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+       </div>
+       <div class="size">
+         <span>30cm</span>
+         <span>40cm</span>
+         <span>50cm</span>
+       </div>
+           <button class="btn">order now </button>
+     </div>
+  
+  <!-- grill--->
+ <div class="coulm" data-item="grill&seafood">
+   <img src="grill-1.jpeg">
+   <div class="content">
+     <h3>fresh grill</h3>
+     <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+   </div>
+   <div class="size">
+     <span>30cm</span>
+     <span>40cm</span>
+     <span>50cm</span>
+   </div>
+       <button class="btn">order now </button>
+ </div>
+
+ <div class="coulm" data-item="grill&seafood">
+   <img src="grill-2.jpeg">
+   <div class="content">
+     <h3>fresh grill</h3>
+     <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+   </div>
+   <div class="size">
+     <span>30cm</span>
+     <span>40cm</span>
+     <span>50cm</span>
+   </div>
+       <button class="btn">order now </button>
+ </div>
+ 
+ <div class="coulm" data-item="grill&seafood">
+   <img src="grill-3.jpeg">
+   <div class="content">
+     <h3>fresh grill</h3>
+     <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+   </div>
+   <div class="size">
+     <span>30cm</span>
+     <span>40cm</span>
+     <span>50cm</span>
+   </div>
+       <button class="btn">order now </button>
+ </div>
+
+ <div class="coulm" data-item="grill&seafood">
+   <img src="grill-4.jpeg">
+   <div class="content">
+     <h3>fresh grill</h3>
+     <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+   </div>
+   <div class="size">
+     <span>30cm</span>
+     <span>40cm</span>
+     <span>50cm</span>
+   </div>
+       <button class="btn">order now </button>
+ </div>
+ 
+ <!-- ice cream-->
+ 
+      <div class="coulm" data-item="ice cream">
+        <img src="ice-1.jpeg">
+        <div class="content">
+          <h3>ice cream</h3>
+          <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+        </div>
+        <div class="size">
+          <span>30cm</span>
+          <span>40cm</span>
+          <span>50cm</span>
+        </div>
+          <button class="btn">order now </button>
+      </div>
+     
+      <div class="coulm" data-item="ice cream">
+        <img src="ice-2.jpeg">
+        <div class="content">
+          <h3>ice cream</h3>
+          <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+        </div>
+        <div class="size">
+          <span>30cm</span>
+          <span>40cm</span>
+          <span>50cm</span>
+        </div>
+         <button class="btn">order now </button>
+      </div>
+     
+       <div class="coulm" data-item="ice cream">
+         <img src="ice-3.jpeg">
+         <div class="content">
+           <h3>ice cream<</h3>
+           <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+         </div>
+         <div class="size">
+           <span>30cm</span>
+           <span>40cm</span>
+           <span>50cm</span>
+         </div>
+        <button class="btn">order now </button>
+       </div>
+       
+      <div class="coulm" data-item="ice cream">
+        <img src="ice-4.jpeg">
+        <div class="content">
+          <h3>ice cream<</h3>
+          <p>is not simply random text. It has roots in a piece of classical Latin literatu</p>
+        </div>
+        <div class="size">
+          <span>30cm</span>
+          <span>40cm</span>
+          <span>50cm</span>
+        </div>
+     <button class="btn">order now </button>
+      </div>
+     </div> 
+  </div>
+  </section>
+  <!-- section menu end ---------->
+  
+  <!-- section about Start ---------->
+  
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="image">
+          <img src="about.jpeg" alt="about">
+        </div>
+        
+       <div class="col">
+         <h3>about us</h3>
+         <span>this is our story</span>
+       <p>is not simply random text. It has roots in a piece of classical Latin literatu
+        is not simply random text. It has roots in a piece of classical Latin literatu
+         is not simply random text. It has roots in a piece of classical Latin literat</p>
+       </div> 
+      </div>
+    </div>
+  </section>
+    <!-- section about end ---------->
+  
+  <!-- section review start ---------->
+  <section class="review">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>what our customers say</h3>
+        <span>we have 50 happy review</span>
+      <p>is not simply random text. It has roots in a piece of classical Latin literatu
+        is not simply random text</p>
+      </div>
+      <div class="swiper box-slider">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide slider">
+            <img src="user-1.jpeg">
+            <div class="text">
+           <p>is not simply random text. It has roots in a piece of classical Latinliteratu is not simply random text</p>
+           <h2> some name</h2>
+           <div class="star">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i>
+           </div>
+            </div>
+          </div>
+          
+          <div class="swiper-slide slider">
+            <img src="user-2.jpeg">
+            <div class="text">
+              <p>is not simply random text. It has roots in a piece of classical Latinliteratu is not simply random text</p>
+              <h2> some name</h2>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+            <div class="swiper-slide slider">
+              <img src="user-3.jpeg">
+              <div class="text">
+                <p>is not simply random text. It has roots in a piece of classical Latinliteratu is not simply random text</p>
+                <h2> some name</h2>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  </section>
+  <!-- section review end ---------->
+  
+
+  
+  <!-- section delivery statt ---------->
+ 
+ <section class="delivery">
+   <div class="container">
+     
+     <div class="row">
+       <div class="col">
+        <h2>30 minutes, or pizza for free</h2> 
+        <p>is not simply random text. It has roots in a piece</p> 
+          <h2>30 minutes, or pizza for free</h2>
+          <p>is not simply random text. It has roots in a piece</p>
+            <h2>30 minutes, or pizza for free</h2>
+            <p>is not simply random text. It has roots in a piece </p>
+             
+         <button class="btn">order now </button>
+       </div>
+       <div class="image">
+         <img src="delivery.png" alt="">
+       </div>
+     </div>
+   </div>
+ </section>
+   <!-- section delivery end ---------->
+ 
+   <!-- section booking ---------->
+ 
+ <div class="bg">
+   <section class="booking" id="booking">
+     <div class="container">
+       <div class="row">
+         <div class="col">
+           <div class="box-booking">
+            <h1 class="hid">reservation</h1> 
+            <h2>opening time</h2>
+            <span>open 7 day a week</span>
+              <div class="days">
+                <h3>week days <span>10:30am - 9:00pm</span></h3>
+                <h3>Saturday   <span>11:30am - 10:30pm</span></h3>
+                <h3>Sunday <span>11:30am - 10:30pm</span></h3>
+              </div>
+               <button class="btn">booking now</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
+ <!-- section chif start------>
+ 
+ <section class="chif">
+  <div class="container">
+     <div class="heading">
+       <h2>experience chef</h2>
+       <p>meet our experience chef</p>
+     </div>
+     <div class="chif-box">
+       
+       <div class="col-box">
+         <img src="chef-1.jpg" >
+         <div class="details">
+           <h2>name chef</h2>
+           <span>senior chef</span>
+           <div class="social-media">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+           </div>
+         </div>
+       </div>
+      
+     <div class="col-box">
+         <img src="chef-2.jpg" >
+         <div class="details">
+           <h2>name chef</h2>
+           <span>senior chef</span>
+           <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+           </div>
+         </div>
+       </div>
+       
+       
+      <div class="col-box">
+         <img src="chef-3.jpg" >
+         <div class="details">
+           <h2>name chef</h2>
+           <span>senior chef</span>
+           <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+           </div>
+         </div>
+       </div>
+       
+        <div class="col-box">
+         <img src="chef-4.jpg" >
+         <div class="details">
+           <h2>name chef</h2>
+           <span>senior chef</span>
+           <div class="social-media">
+             <i class="fab fa-facebook"></i>
+             <i class="fab fa-twitter"></i>
+             <i class="fab fa-instagram"></i>
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+ </section>
+ <!----- start footer------>
+ <footer>
+   <div class="container">
+     <div class="footer-box">
+       <div class="footer-content">
+         <img src="logo.png">
+        <p>is not simply random text. It has roots in a piece of classical Latinliteratu is not simply random text</p>
+            <div class="social-media">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+       </div>
+       
+      <div class="footer-content">
+     <h3>quick links</h3>
+    <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+   <a href="#"> <i class="fas fa-angle-right"></i> menu</a>
+  <a href="#"> <i class="fas fa-angle-right"></i> about</a>
+  <a href="#"> <i class="fas fa-angle-right"></i> delivery</a>
+  <a href="#"> <i class="fas fa-angle-right"></i> chef</a>
+  <a href="#"> <i class="fas fa-angle-right"></i> booking</a>
+   </div>
+
+  <div class="footer-content">
+    <h3>contact us</h3>
+<a href="#"> <i class="fas fa-phone-alt"></i> +453-346-346</a>
+<a href="#"> <i class="fas fa-phone-alt"></i> +453-346-678</a>
+<a href="#"> <i class="fas fa-map-marker-alt"></i> bytom, poland - 2 </a>
+<a href="#"> <i class="fas fa-envelope"></i> info@ema.com</a>
+  </div>
+     </div>
+     <h1 class="credit"> &copy; copyright @ 2022 by <span>CODZERO</span></h1>
+     
+   </div>
+ </footer>
+ 
+ <!--Swiper js CDN------->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- Custom main js -->
+  <script src="main.js"></script>
+    
+
+</body>
+</html>
